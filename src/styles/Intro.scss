@@ -1,0 +1,31 @@
+.intro {
+  border: 1px solid;
+  border-radius: 5px;
+  background-color: rgba(245, 245, 245, 0.75);
+  padding: 1rem;
+}
+
+.intro-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.intro-name {
+  font-size: 3rem;
+}
+
+@keyframes bounce {
+  50% {
+    transform: translateY(-10px);
+  }
+  0%, 100% {
+    transform: translateY(0);
+  }
+}
+
+.intro-icon:hover {
+  transform: scale(1.5);
+  animation: bounce 1.5s ease infinite;
+}
