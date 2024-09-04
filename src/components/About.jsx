@@ -2,8 +2,9 @@ import '../styles/About.scss'
 
 const About = () => {
   return (
-    <div className="border1 m-4">
-      about
+    <div className="about border1 mx-4">
+      <h2>About:</h2>
+      I enjoy creating easy to use and aesthetically pleasing websites. My goal is to create web applications that are intuitive to use while continuing to learn about web development and improve my skills.
     </div>
   );
 }

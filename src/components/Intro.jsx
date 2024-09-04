@@ -20,9 +20,7 @@ const Intro = () => {
         </div>
       </div>
       <div className="intro-details">
-        <p>
-          I am a newly minted Full-Stack Web Developer with a passion for building clean and easy to use web applications.
-        </p>
+        I am a newly minted Full-Stack Web Developer with a passion for building clean and easy to use web applications.
       </div>
     </div>
   );
