@@ -8,7 +8,7 @@ const Content = () => {
   
   return (
     <>
-      <div className='content'>
+      <div className='content d-flex flex-column justify-content-between'>
         <Intro />
         <About />
         <BadgeList />

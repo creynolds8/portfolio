@@ -2,7 +2,7 @@ import '../styles/Intro.scss'
 
 const Intro = () => {
   return (
-    <div className="border1 m-4">
+    <div className="border1 my-4">
       <div className="intro-title">
         <div className="intro-name">
           Hi, my name is Cameron.

@@ -1,8 +1,6 @@
 import ProjectListItem from "./ProjectListItem";
 import projects from '../../data/projects';
 
-import '../styles/ProjectList.scss'
-
 const ProjectList = () => {
   const projectComponents = projects.map((project) => {
     return (
@@ -14,7 +12,7 @@ const ProjectList = () => {
   })
   return (
     <>
-      <div className="project-list">
+      <div className="project-list my-4 d-flex justify-content-between">
         {projectComponents}
       </div>
     </>

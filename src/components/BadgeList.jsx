@@ -13,7 +13,7 @@ const BadgeList = () => {
   })
   return (
     <>
-      <div className="badge-list d-flex justify-content-between">
+      <div className="badge-list my-4 d-flex justify-content-between">
         {badgeListComponents}
       </div>
     </>
