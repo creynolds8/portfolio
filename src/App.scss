@@ -1,0 +1,24 @@
+.border1 {
+  border: 1px solid;
+  border-radius: 5px;
+  background-color: rgba(245, 245, 245, 0.75);
+  padding: 1rem;
+}
+
+.header {
+  margin-top: 4rem;
+  text-shadow: 0 0 5px rgb(35, 255, 0);
+}
+
+@keyframes bounce {
+  50% {
+    transform: translateY(-10px);
+  }
+  0%, 100% {
+    transform: translateY(0);
+  }
+}
+
+.bounce:hover {
+  animation: bounce 1.5s ease infinite;
+}
