@@ -12,6 +12,8 @@ const ProjectList = () => {
   })
   return (
     <>
+      <a name="Projects"></a>
+      <h2 className="header">Projects:</h2>
       <div className="project-list my-4 d-flex justify-content-between">
         {projectComponents}
       </div>

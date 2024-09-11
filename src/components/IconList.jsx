@@ -8,6 +8,7 @@ const IconList = () => {
   })
   return (
     <>
+      <h2 className="header">Tech Stack:</h2>
       <div className="icon-list d-flex flex-wrap justify-content-center my-4">
         { iconComponents }
       </div>

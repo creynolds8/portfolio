@@ -9,13 +9,13 @@ const Intro = () => {
         </div>
         <div className="intro-icons">
           <a href="https://www.linkedin.com/in/cameronreynolds8">
-            <img className="intro-icon mx-2" src="/linkedin.svg" alt="Li" height="32" />
+            <img className="intro-icon bounce mx-2" src="/linkedin.svg" alt="Li" height="32" />
           </a>
           <a href="https://github.com/creynolds8">
-            <img className="intro-icon mx-2" src="/github.svg" alt="Gh" height="32" />
+            <img className="intro-icon bounce mx-2" src="/github.svg" alt="Gh" height="32" />
           </a>
           <a href="https://flowcv.com/resume/qhi0h146rw">
-            <img className="intro-icon mx-2" src="/resume.svg" alt="Rs" height="32" />
+            <img className="intro-icon bounce mx-2" src="/resume.svg" alt="Rs" height="32" />
           </a>
         </div>
       </div>
