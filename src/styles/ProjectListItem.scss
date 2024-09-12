@@ -3,5 +3,24 @@
   .project-thumbnail {
     border: 1px solid;
     border-radius: 5px;
+    user-select: none;
   }
+}
+
+.project-box:hover {
+  transition: transform .1s ease-out;
+  transform: rotateX(var(--x-rotation)) rotateY(var(--y-rotation)) scale(1.1);
+}
+
+.project-image {
+  position: relative;
+}
+
+.repo-link {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: white;
+  border-radius: 100%;
+  box-shadow: 0 0 5px white;
 }

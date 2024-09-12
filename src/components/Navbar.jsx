@@ -6,7 +6,7 @@ const Navbar = () => {
       <nav className="navbar fixed-top">
         <div className="container-fluid">
           <span className="d-flex">
-          <img src="/c.svg" alt="C" />
+          <img src="data/images/icons/c.svg" alt="C" />
           <a className="nav-link mx-4" href="/">
             <strong>Cameron - Web Developer</strong>
           </a>
