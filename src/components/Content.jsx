@@ -13,8 +13,8 @@ const Content = () => {
         <Intro />
         <About />
         <BadgeList />
-        <ProjectList />
         <IconList />
+        <ProjectList />
       </div>
     </>
   )
