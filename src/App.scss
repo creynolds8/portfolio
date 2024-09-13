@@ -22,3 +22,8 @@
 .bounce:hover {
   animation: bounce 1.5s ease infinite;
 }
+
+.dynamic-hover:hover {
+  transition: transform ease-out;
+  transform: rotateX(var(--x-rotation)) rotateY(var(--y-rotation)) scale(1.1);
+}

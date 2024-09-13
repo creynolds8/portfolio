@@ -1,30 +1,23 @@
-import { useRef } from "react"
 import "../styles/ProjectListItem.scss"
 
+import { useRef } from "react";
+import { mouseEnter, mouseLeave, mouseMove } from "../javascript/mouseTrackingCard";
+
 const ProjectListItem = ({ project }) => {
-  const boundingRef = useRef(null)
+  const boundingRef = useRef(null);
   return (
     <>
       <div
       onMouseLeave={() => {
-        boundingRef.current = null;
+        mouseLeave(boundingRef);
       }}
       onMouseEnter={(e) => {
-        boundingRef.current = e.currentTarget.getBoundingClientRect();      
+        mouseEnter(boundingRef, e);     
       }}
       onMouseMove={(e) => {
-        if (!boundingRef.current) return
-        const x = e.clientX - boundingRef.current.left;
-        const y = e.clientY - boundingRef.current.top;
-        const xPercentage = x / boundingRef.current.width;
-        const yPercentage = y / boundingRef.current.height;
-        const xRotation = (xPercentage - 0.5) * 20;
-        const yRotation = (0.5 - yPercentage) * 20;
-
-        e.currentTarget.style.setProperty("--x-rotation", `${yRotation}deg`)
-        e.currentTarget.style.setProperty("--y-rotation", `${xRotation}deg`)
+        mouseMove(boundingRef, e);
       }}
-      className="project-box border1">
+      className="project-box border1 dynamic-hover">
         <div className="project-content">
           <div className="project-image">
             <a className="repo-link" href={`${project.repoLink}`}>

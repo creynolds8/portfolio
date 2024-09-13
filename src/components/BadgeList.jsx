@@ -13,7 +13,7 @@ const BadgeList = () => {
   })
   return (
     <>
-      <div className="badge-list my-4 d-flex justify-content-between">
+      <div className="badge-list my-4 d-flex justify-content-between" style={{perspective: 1000 + 'px'}}>
         {badgeListComponents}
       </div>
     </>
