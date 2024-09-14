@@ -17,9 +17,11 @@ const Badge = ({ badge }) => {
       onMouseMove={(e) => {
         mouseMove(boundingRef, e);
       }}
-      className="intro-badge border1 dynamic-hover d-flex flex-column align-items-center">
-        <img src={badge.icon} alt={badge.alt} width="128"/>
-        <h4>{badge.blurb}</h4>
+      className="intro-badge bg-green dynamic-hover p-1">
+        <div className="inner-section d-flex flex-column align-items-center">
+          <img src={badge.icon} alt={badge.alt} width="128"/>
+          <h4>{badge.blurb}</h4>
+        </div>
       </div>
     </>
   );

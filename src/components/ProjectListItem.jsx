@@ -17,8 +17,8 @@ const ProjectListItem = ({ project }) => {
       onMouseMove={(e) => {
         mouseMove(boundingRef, e);
       }}
-      className="project-box border1 dynamic-hover">
-        <div className="project-content">
+      className="project-box bg-green dynamic-hover p-1">
+        <div className="inner-section p-2">
           <div className="project-image">
             <a className="repo-link" href={`${project.repoLink}`}>
               <img src="data/images/icons/github-white.svg" alt="Gh" height="32" />
