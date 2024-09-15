@@ -33,15 +33,16 @@ const Contact = () => {
       <a name="Contact"></a>
       <h2 className="header">Contact:</h2>
       <div className="border1 d-inline-flex flex-column w-50 my-4">
-        <form onSubmit={onSubmit} className="contact-form">
+        <form onSubmit={onSubmit} className="contact-form d-flex flex-column justify-content-between">
           <label htmlFor="name">Name:</label>
           <input type="text" name="name" required/>
           <label htmlFor="email">Email:</label>
           <input type="email" name="email" required/>
           <label htmlFor="message">Message:</label>
-          <textarea name="message" required></textarea>
-
-          <button type="submit" className="btn btn-success">Submit Form</button>
+          <textarea name="message" className="h-50" required></textarea>
+          <span>
+            <button type="submit" className="btn btn-success">Send</button>
+          </span>
 
         </form>
         {result && <span className="mt-4">{result}</span>}
