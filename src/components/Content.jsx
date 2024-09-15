@@ -1,9 +1,10 @@
 import '../styles/Content.scss'
 import ProjectList from './ProjectList';
-import Intro from './Intro'
+import Intro from './Intro';
 import About from './About';
 import BadgeList from './BadgeList';
 import IconList from './IconList';
+import Contact from './Contact';
 
 const Content = () => {
   
@@ -15,6 +16,7 @@ const Content = () => {
         <BadgeList />
         <IconList />
         <ProjectList />
+        <Contact />
       </div>
     </>
   )
