@@ -42,3 +42,25 @@
   transform: rotateX(var(--x-rotation)) rotateY(var(--y-rotation)) scale(1.1);
 }
 
+.navbar {
+  color: whitesmoke;
+}
+
+.ts-white {
+  text-shadow: 0 0 5px white;
+}
+.bs-white {
+  box-shadow: 0 0 5px white;
+}
+
+.ts-hover-white:hover {
+  text-shadow: 0 0 5px white;
+}
+
+.bs-hover-white:hover {
+  box-shadow: 0 0 5px white;
+}
+
+.bs-hover-green:hover {
+  box-shadow: 0 0 5px green;
+}

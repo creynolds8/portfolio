@@ -1,6 +1,7 @@
 import Navbar from'./components/Navbar'
 import Content from './components/Content'
 import './App.scss'
+import Footer from './components/Footer'
 
 const App = () => {
 
@@ -8,6 +9,7 @@ const App = () => {
     <>
       <Navbar />
       <Content />
+      <Footer />
     </>
   )
 }
