@@ -27,7 +27,7 @@ const ProjectListItem = ({ project }) => {
         <div className="inner-section p-2 d-flex flex-column justify-content-between">
           <div>
             <div className="project-image">
-              <a className="repo-link" href={`${project.repoLink}`}>
+              <a className="repo-link bs-white bs-hover-green" href={`${project.repoLink}`}>
                 <img src="data/images/icons/github-white.svg" alt="Gh" height="32" />
               </a>
               <img className="project-thumbnail mb-2" src={project.thumbnail} alt="IMG" width="100%" />
