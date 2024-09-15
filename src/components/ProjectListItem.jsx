@@ -1,39 +1,43 @@
-import { useRef } from "react"
 import "../styles/ProjectListItem.scss"
 
+import { useRef } from "react";
+import { mouseEnter, mouseLeave, mouseMove } from "../javascript/mouseTrackingCard";
+
 const ProjectListItem = ({ project }) => {
-  const boundingRef = useRef(null)
+  const boundingRef = useRef(null);
+
+  const techStackComponents = project.techStack.map(a => {
+    return (
+      <p className="tech-item me-2">{a}</p>
+    )
+  })
   return (
     <>
       <div
       onMouseLeave={() => {
-        boundingRef.current = null;
+        mouseLeave(boundingRef);
       }}
       onMouseEnter={(e) => {
-        boundingRef.current = e.currentTarget.getBoundingClientRect();      
+        mouseEnter(boundingRef, e);     
       }}
       onMouseMove={(e) => {
-        if (!boundingRef.current) return
-        const x = e.clientX - boundingRef.current.left;
-        const y = e.clientY - boundingRef.current.top;
-        const xPercentage = x / boundingRef.current.width;
-        const yPercentage = y / boundingRef.current.height;
-        const xRotation = (xPercentage - 0.5) * 20;
-        const yRotation = (0.5 - yPercentage) * 20;
-
-        e.currentTarget.style.setProperty("--x-rotation", `${yRotation}deg`)
-        e.currentTarget.style.setProperty("--y-rotation", `${xRotation}deg`)
+        mouseMove(boundingRef, e);
       }}
-      className="project-box border1">
-        <div className="project-content">
-          <div className="project-image">
-            <a className="repo-link" href={`${project.repoLink}`}>
-              <img src="data/images/icons/github-white.svg" alt="Gh" height="32" />
-            </a>
-            <img className="project-thumbnail mb-2" src={project.thumbnail} alt="IMG" width="100%" />
+      className="project-box bg-green dynamic-hover p-1">
+        <div className="inner-section p-2 d-flex flex-column justify-content-between">
+          <div>
+            <div className="project-image">
+              <a className="repo-link" href={`${project.repoLink}`}>
+                <img src="data/images/icons/github-white.svg" alt="Gh" height="32" />
+              </a>
+              <img className="project-thumbnail mb-2" src={project.thumbnail} alt="IMG" width="100%" />
+            </div>
+            <h4>{project.title}</h4>
+            <p>{project.description}</p>
           </div>
-          <h4>{project.title}</h4>
-          <p>{project.description}</p>
+          <div className="d-flex">
+            {techStackComponents}
+          </div>
         </div>
       </div>
     </>

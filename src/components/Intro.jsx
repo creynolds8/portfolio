@@ -1,10 +1,8 @@
-import '../styles/Intro.scss'
-
 const Intro = () => {
   return (
     <div className="border1 my-4">
-      <div className="intro-title">
-        <div className="intro-name">
+      <div className="d-flex justify-content-between align-items-center">
+        <div className="intro-name fs-1">
           Hi, my name is Cameron.
         </div>
         <div className="intro-icons">

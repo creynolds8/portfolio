@@ -5,6 +5,20 @@
   padding: 1rem;
 }
 
+.bg-green {
+  border-radius: 5px;
+  background: linear-gradient(
+    to top right, rgb(255,255,255) 0%, rgb(56, 131, 54) 40%, rgb(0,80,0) 100%
+  );
+}
+
+.inner-section {
+  border: 1px solid;
+  border-radius: 5px;
+  background-color: rgba(245, 245, 245, 0.9);
+  height: 100%;
+}
+
 .header {
   margin-top: 4rem;
   text-shadow: 0 0 5px rgb(35, 255, 0);
@@ -22,3 +36,9 @@
 .bounce:hover {
   animation: bounce 1.5s ease infinite;
 }
+
+.dynamic-hover:hover {
+  transition: transform ease-out;
+  transform: rotateX(var(--x-rotation)) rotateY(var(--y-rotation)) scale(1.1);
+}
+
