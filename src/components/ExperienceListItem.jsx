@@ -8,7 +8,7 @@ const ExperienceListItem = ({ experience }) => {
   })
   return (
     <>
-    <div className="experience-item d-flex position-relative my-4">
+    <div className="experience-item d-flex position-relative mb-4">
 
       <div className="experience-box border1 mb-2">
         <div className="d-flex align-items-center">
@@ -18,7 +18,7 @@ const ExperienceListItem = ({ experience }) => {
         <div className="d-grid">
             {experience.subLabel}
         </div>
-        <ul className="mt-2">
+        <ul className="mt-4 p-4 border-top border-dark border-2">
           {experienceBlurbs}
         </ul>
       </div>
