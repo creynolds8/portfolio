@@ -1,0 +1,29 @@
+.experience-box {
+  width: 35vw;
+}
+
+.experience-icon {
+  height: 32px;
+}
+
+.experience-item:nth-of-type(even) {
+  flex-direction: row-reverse;
+  .experience-timeline {
+    right: 57%;
+  }
+}
+
+.experience-item:nth-of-type(odd) {
+  .experience-timeline {
+    left: 57%;
+  }
+}
+
+.timeline-icon {
+  height: fit-content;
+  width: fit-content;
+  top: 10%;
+  img {
+    width: 5vw;
+  }
+}

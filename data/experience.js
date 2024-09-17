@@ -49,10 +49,10 @@ const experience = [
         id: 3,
         blurb: "Continue to integrate RESTful API's into web applications to add functionality and provide a more user-friendly experience.",
       },
-      // {
-      //   id: 4,
-      //   blurb: "",
-      // },
+      {
+        id: 4,
+        blurb: "Expand coding knowledge outside of web development with other projects such as creating modifications and add-ons for certain video games, ie. Minecraft written in Javascript",
+      },
     ],
   },
   // {
