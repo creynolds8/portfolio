@@ -28,7 +28,7 @@ const ProjectListItem = ({ project }) => {
           <div>
             <div className="project-image">
               <a className="repo-link bs-white bs-hover-green" href={`${project.repoLink}`}>
-                <img src="data/images/icons/github-white.svg" alt="Gh" height="32" />
+                <img src="https://raw.githubusercontent.com/creynolds8/portfolio/1df5fa3ff9ab196861044f97644f7b04755da208/data/images/icons/github-white.svg" alt="Gh" height="32" />
               </a>
               <img className="project-thumbnail mb-2" src={project.thumbnail} alt="IMG" width="100%" />
             </div>
