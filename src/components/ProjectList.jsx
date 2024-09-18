@@ -1,3 +1,5 @@
+import React from 'react';
+
 import ProjectListItem from "./ProjectListItem";
 import projects from '../../data/projects';
 

@@ -1,3 +1,5 @@
+import React from 'react';
+
 import Badge from "./Badge"
 import badges from "../../data/badges"
 

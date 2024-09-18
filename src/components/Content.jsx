@@ -1,3 +1,4 @@
+import React from 'react';
 import '../styles/Content.scss'
 import ProjectList from './ProjectList';
 import Intro from './Intro';
