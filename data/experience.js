@@ -4,9 +4,9 @@ const experience = [
     label: "Lighthouse Labs",
     subLabel: "Fullstack Web Development Bootcamp",
     timeline: "Apr 2024 - July 2024",
-    icon: "/data/images/LHL-icon.png",
+    icon: "https://github.com/creynolds8/portfolio/blob/main/data/images/LHL-icon.png?raw=true",
     alt: "LHL",
-    timelineIcon: "/data/images/icons/badges/fullstack-icon.svg",
+    timelineIcon: "https://raw.githubusercontent.com/creynolds8/portfolio/699f10c809ac3aab58f8044a3b1402006a14af3f/data/images/icons/badges/fullstack-icon.svg",
     timelineAlt: "FS-Dev",
     blurbs: [
       {
@@ -32,9 +32,9 @@ const experience = [
     label: "Personal Projects",
     subLabel: "Continued Learning",
     timeline: "July 2024 - Present",
-    icon: "/data/images/icons/elearning.svg",
+    icon: "https://raw.githubusercontent.com/creynolds8/portfolio/699f10c809ac3aab58f8044a3b1402006a14af3f/data/images/icons/elearning.svg",
     alt: "CL",    
-    timelineIcon: "/data/images/icons/web-dev.svg",
+    timelineIcon: "https://raw.githubusercontent.com/creynolds8/portfolio/699f10c809ac3aab58f8044a3b1402006a14af3f/data/images/icons/web-dev.svg",
     timelineAlt: "WD", 
     blurbs: [
       {
