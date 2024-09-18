@@ -13,6 +13,9 @@ const Navbar = () => {
             <a className="nav-link mx-4 ts-hover-white" href="#About">
               About
             </a>
+            <a className="nav-link mx-4 ts-hover-white" href="#Experience">
+              Experience
+            </a>
             <a className="nav-link mx-4 ts-hover-white" href="#Projects">
               Projects
             </a>

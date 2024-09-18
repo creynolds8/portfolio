@@ -5,6 +5,7 @@ import About from './About';
 import BadgeList from './BadgeList';
 import IconList from './IconList';
 import Contact from './Contact';
+import ExperienceList from './ExperienceList';
 
 const Content = () => {
   
@@ -15,11 +16,12 @@ const Content = () => {
         <About />
         <BadgeList />
         <IconList />
+        <ExperienceList />
         <ProjectList />
         <Contact />
 
         <a href="#" className="align-self-center py-4">
-          <img src="/data/images/icons/up-arrow.svg" alt="Back to Top" height="32px" className="bs-hover-white" style={{borderRadius: "100%",backgroundColor: "rgba(255, 255, 255 , 0.5)"}}/>
+          <img src="/data/images/icons/up-arrow.svg" alt="Back to Top" height="32px" className="top-arrow bs-hover-white"/>
         </a>
       </div>
     </>
