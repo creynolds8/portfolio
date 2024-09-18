@@ -4,7 +4,7 @@ const Navbar = () => {
       <nav className="navbar navbar-dark bg-dark fixed-top">
         <div className="container-fluid">
           <span className="d-flex align-items-center">
-          <img src="data/images/icons/c.svg" alt="C" className="bs-white" style={{borderRadius: "100%",backgroundColor: "rgba(255, 255, 255 , 0.5)"}}/>
+          <img src="https://raw.githubusercontent.com/creynolds8/portfolio/1df5fa3ff9ab196861044f97644f7b04755da208/data/images/icons/c.svg" alt="C" className="bs-white" style={{borderRadius: "100%",backgroundColor: "rgba(255, 255, 255 , 0.5)"}}/>
           <a className="nav-link mx-4 ts-hover-white" href="/">
             <strong>Cameron - Web Developer</strong>
           </a>

@@ -21,7 +21,7 @@ const Content = () => {
         <Contact />
 
         <a href="#" className="align-self-center py-4">
-          <img src="/data/images/icons/up-arrow.svg" alt="Back to Top" height="32px" className="top-arrow bs-hover-white"/>
+          <img src="https://raw.githubusercontent.com/creynolds8/portfolio/1df5fa3ff9ab196861044f97644f7b04755da208/data/images/icons/up-arrow.svg" alt="Back to Top" height="32px" className="top-arrow bs-hover-white"/>
         </a>
       </div>
     </>
