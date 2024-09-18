@@ -7,7 +7,7 @@ const icons = [
   {
     id: 1,
     label: "Javascript",
-    svg: 'https://raw.githubusercontent.com/creynolds8/portfolio/1df5fa3ff9ab196861044f97644f7b04755da208/data/images/icons/tech-stack/javascript-icon.svg'
+    svg: 'https://raw.githubusercontent.com/creynolds8/portfolio/699f10c809ac3aab58f8044a3b1402006a14af3f/data/images/icons/tech-stack/javascript-icon.svg'
   },
   {
     id: 2,
