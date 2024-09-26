@@ -5,7 +5,7 @@ const About = () => {
     <>
       <a name="About"></a>
       <h2 className='header'>About:</h2>
-      <div className="about border1 my-4 w-75">
+      <div className="about border1 my-4">
         I enjoy creating easy to use and aesthetically pleasing websites. My goal is to create web applications that are intuitive to use while continuing to learn about web development and improve my skills.
       </div>
     </>

@@ -32,7 +32,7 @@ const Contact = () => {
     <>
       <a name="Contact"></a>
       <h2 className="header">Contact:</h2>
-      <div className="border1 d-inline-flex flex-column w-50 my-4">
+      <div className="contact border1 d-inline-flex flex-column my-4">
         <form onSubmit={onSubmit} className="contact-form d-flex flex-column justify-content-between">
           <label htmlFor="name">Name:</label>
           <input type="text" name="name" required/>

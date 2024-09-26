@@ -3,7 +3,7 @@ import React from 'react';
 const Intro = () => {
   return (
     <div className="border1 my-4">
-      <div className="d-flex justify-content-between align-items-center">
+      <div className="intro d-flex justify-content-between align-items-center">
         <div className="intro-name fs-1">
           Hi, my name is Cameron.
         </div>
