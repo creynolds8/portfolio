@@ -81,12 +81,14 @@
 }
 
 @media only screen and (max-width: 1020px) {
-  .header {
-    margin-top: 2rem;
-  }
+  // .header {
+  //   margin-top: 2rem;
+  // }
   .content {
-    padding: 0.5rem;
-    background-image: none;
+    padding: 1rem;
+    // background-image: none;
+    background: url("/data/images/bright-squares.png"),
+      linear-gradient(to bottom, rgb(140, 140, 140), rgb(40, 40, 40));
     margin-top: 4rem;
   }
   .intro {
@@ -125,14 +127,15 @@
   .timeline {
     display: none;
   }
-
-
   .project-list {
     flex-direction: column;
     .project-box {
       width: 100%;
       margin-top: 1rem;
     }
+  }
+  .dynamic-hover:hover {
+    transform: none;
   }
   .contact {
     width: 100%;
