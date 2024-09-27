@@ -31,6 +31,14 @@
   text-shadow: 0 0 5px rgb(35, 255, 0);
 }
 
+.about {
+  width: 75%;
+}
+
+.contact {
+  width: 50%;
+}
+
 @keyframes bounce {
   50% {
     transform: translateY(-10px);
@@ -70,4 +78,66 @@
 
 .bs-hover-green:hover {
   box-shadow: 0 0 5px green;
+}
+
+@media only screen and (max-width: 1020px) {
+  // .header {
+  //   margin-top: 2rem;
+  // }
+  .content {
+    padding: 1rem;
+    // background-image: none;
+    background: url("/data/images/bright-squares.png"),
+      linear-gradient(to bottom, rgb(140, 140, 140), rgb(40, 40, 40));
+    margin-top: 4rem;
+  }
+  .intro {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .about {
+    width: 100%;
+  }
+  .badge-list {
+    flex-wrap: wrap;
+  }
+  .intro-badge {
+    margin: 0.5rem;
+    width: 40vw;
+    .inner-section {
+      padding: 1rem;
+      h4 {
+        font-size: medium;
+      }
+    }
+  }
+  .icon {
+    width: auto;
+    height: auto;
+  }
+  .experience-box {
+    width: 100%;
+  }
+  .experience-timeline {
+    display: none;
+  }
+  .timeline-icon {
+    display: none;
+  }
+  .timeline {
+    display: none;
+  }
+  .project-list {
+    flex-direction: column;
+    .project-box {
+      width: 100%;
+      margin-top: 1rem;
+    }
+  }
+  .dynamic-hover:hover {
+    transform: none;
+  }
+  .contact {
+    width: 100%;
+  }
 }

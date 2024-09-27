@@ -20,6 +20,7 @@ const ExperienceListItem = ({ experience }) => {
         <div className="d-grid">
             {experience.subLabel}
         </div>
+        {(window.innerWidth < 1020) && experience.timeline}
         <ul className="mt-4 p-4 border-top border-dark border-2">
           {experienceBlurbs}
         </ul>

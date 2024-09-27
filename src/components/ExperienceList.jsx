@@ -15,7 +15,7 @@ const ExperienceList = () => {
       <h2 className="header">Experience:</h2>
       <div className="experience-list my-4 d-flex flex-column position-relative">
         {experienceComponents}
-      <div className="border1 position-absolute top-0 start-50 translate-middle-x h-100 p-1" style={{zIndex: "0"}}></div>
+      <div className="timeline border1 position-absolute top-0 start-50 translate-middle-x h-100 p-1" style={{zIndex: "0"}}></div>
       </div>
     </>
   );
